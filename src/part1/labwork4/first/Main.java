@@ -35,9 +35,6 @@ public class Main {
         System.out.println("Test functionality of class WeatherWithList:");
         WeatherWithList weatherList = new WeatherWithList("Winter", "3 days are described",
                 new ArrayList<>(Arrays.asList(days)));
-        System.out.println("Testing the getDaysList() function:");
-        List<Day> daysList = weatherList.getDaysList();
-        daysList.forEach(System.out::println);
         testWeather(weatherList);
 
         System.out.println("Test functionality of class WeatherWithSortedSet:");

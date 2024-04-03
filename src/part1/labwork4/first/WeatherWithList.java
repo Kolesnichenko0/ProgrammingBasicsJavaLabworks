@@ -32,7 +32,7 @@ public class WeatherWithList extends WeatherWithCollection {
      * @param comment the comment
      * @param days    the ArrayList of days
      */
-    public WeatherWithList(String season, String comment, ArrayList<Day> days) {
+    public WeatherWithList(String season, String comment, List<Day> days) {
         super(season, comment);
         Set<Day> uniqueSet = new LinkedHashSet<>(days);
         this.days = new ArrayList<>(uniqueSet);
@@ -63,8 +63,18 @@ public class WeatherWithList extends WeatherWithCollection {
      *
      * @return the list of days
      */
-    public List<Day> getDaysList() {
+    protected List<Day> getDaysList() {
         return days;
+    }
+
+    /**
+     * Sets the list of days for the weather.
+     * But if there are equal days in List, all will be recorded.
+     *
+     * @param days the list of days
+     */
+    protected void setDays(List<Day> days) {
+        this.days = days;
     }
 
     /**
@@ -101,6 +111,8 @@ public class WeatherWithList extends WeatherWithCollection {
         }
         days.set(i, day);
     }
+
+
 
     /**
      * Adds a link to the new {@code day} at the end of the sequence.
