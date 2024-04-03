@@ -1,0 +1,15 @@
+Season: Winter. Comment: 7 days are described
+Date: 09.12.22. Temperature: -5.2 degrees Celsius.
+Comment: Cloudy
+Date: 12.12.22. Temperature: -7.6 degrees Celsius.
+Comment: Drizzly
+Date: 13.12.22. Temperature: -3.2 degrees Celsius.
+Comment: Foggy
+Date: 14.12.22. Temperature: 0.0 degrees Celsius.
+Comment: Foggy and cloudy
+Date: 11.12.22. Temperature: -6.0 degrees Celsius.
+Comment: Sunny
+Date: 10.12.22. Temperature: -3.1 degrees Celsius.
+Comment: Windy
+Date: 15.12.22. Temperature: 1.0 degrees Celsius.
+Comment: Windy and sunny
