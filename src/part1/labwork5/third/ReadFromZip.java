@@ -10,7 +10,7 @@ import java.util.zip.ZipInputStream;
 public class ReadFromZip {
     public static void main(String[] args) {
         System.out.println("Students:");
-        try (ZipInputStream zIn = new ZipInputStream(new FileInputStream("resources/third/Group.zip"));
+        try (ZipInputStream zIn = new ZipInputStream(new FileInputStream("resources/part1/labwork5/third/Group.zip"));
              DataInputStream in = new DataInputStream(zIn)) {
             ZipEntry entry;
             while ((entry = zIn.getNextEntry()) != null) {

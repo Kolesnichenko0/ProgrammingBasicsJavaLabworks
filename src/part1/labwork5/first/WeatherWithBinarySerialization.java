@@ -43,7 +43,7 @@ public class WeatherWithBinarySerialization extends WeatherWithFile {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-        String path = "resources/first/objects/";
+        String path = "resources/part1/labwork5/first/objects/";
         new WeatherWithBinarySerialization().testWeather(path + "weather.dat",
                 path + "byTemperature.dat",
                 path + "byComments.dat",

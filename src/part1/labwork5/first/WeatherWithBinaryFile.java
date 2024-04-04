@@ -58,7 +58,7 @@ public class WeatherWithBinaryFile extends WeatherWithFile {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-        String path = "resources/first/binaryFiles/";
+        String path = "resources/part1/labwork5/first/binaryFiles/";
         new WeatherWithBinaryFile().testWeather(path + "weather.dat",
                 path + "byTemperature.dat",
                 path + "byComments.dat",

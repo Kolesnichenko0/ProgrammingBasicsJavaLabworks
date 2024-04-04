@@ -9,7 +9,7 @@ import java.util.zip.ZipOutputStream;
 public class StoreToZip {
     public static void main(String[] args) {
         Group group = Group.createGroup();
-        try (ZipOutputStream zOut = new ZipOutputStream(new FileOutputStream("resources/third/Group.zip"));
+        try (ZipOutputStream zOut = new ZipOutputStream(new FileOutputStream("resources/part1/labwork5/third/Group.zip"));
              DataOutputStream out = new DataOutputStream(zOut)) {
             for (Student student : group.getStudents()) {
                 zOut.putNextEntry(new ZipEntry(Integer.toString(student.getIdNumber())));

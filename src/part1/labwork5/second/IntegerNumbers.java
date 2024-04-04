@@ -74,7 +74,7 @@ public class IntegerNumbers {
     }
 
     public static void main(String[] args) {
-        String path = "resources/second/";
+        String path = "resources/part1/labwork5/second/";
         try {
             sortIntegers(path + "validData.txt",
                     path + "validResult1.txt", path + "validResult2.txt");

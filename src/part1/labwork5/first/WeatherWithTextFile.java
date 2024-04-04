@@ -59,7 +59,7 @@ public class WeatherWithTextFile extends WeatherWithFile {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-        String path = "resources/first/textFiles/";
+        String path = "resources/part1/labwork5/first/textFiles/";
         new WeatherWithTextFile().testWeather(path + "weather.txt",
                 path + "byTemperature.txt",
                 path + "byComments.txt",
