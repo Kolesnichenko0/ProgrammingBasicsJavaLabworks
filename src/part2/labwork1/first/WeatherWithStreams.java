@@ -84,4 +84,24 @@ public class WeatherWithStreams extends WeatherWithList {
                 .toArray(Day[]::new);
     }
 
+    public void showFunctionality() {
+        System.out.println("Created the weather:\n" + this);
+        this.testSearch();
+        this.testSorting();
+    }
+
+    public static WeatherWithStreams createWeatherWithStreams() {
+        return new WeatherWithStreams("Winter", "7 days are described with streams",
+                Arrays.asList(
+                        new Day("09.12.22", -5.2, "Cloudy"),
+                        new Day("10.12.22", -3.1, "Windy"),
+                        new Day("11.12.22", -6.0, "Sunny"),
+                        new Day("12.12.22", -7.6, "Drizzly"),
+                        new Day("13.12.22", -3.2, "Foggy"),
+                        new Day("14.12.22", 0, "Foggy and cloudy"),
+                        new Day("15.12.22", 1, "Windy and sunny"),
+                        new Day("15.12.22", 1, "Windy and sunny")
+                ));
+    }
+
 }

@@ -63,7 +63,7 @@ public class WeatherWithList extends WeatherWithCollection {
      *
      * @return the list of days
      */
-    protected List<Day> getDaysList() {
+    public List<Day> getDaysList() {
         return days;
     }
 
