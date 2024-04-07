@@ -207,6 +207,7 @@ public abstract class AbstractWeather implements Serializable {
     public Day[] findMaxTemperatureDays() {
         if (daysCount() == 0)
             return null;
+        double epsilon = 0.0001; // precision
         Day maxTemperatureDay = getDays()[0];
         for (Day day : getDays()) {
             if (maxTemperatureDay.getTemperature() < day.getTemperature()) {
@@ -215,7 +216,7 @@ public abstract class AbstractWeather implements Serializable {
         }
         Day[] result = null;
         for (Day day : getDays()) {
-            if (maxTemperatureDay.getTemperature() == day.getTemperature()) {
+            if (Math.abs(maxTemperatureDay.getTemperature() - day.getTemperature()) < epsilon) {
                 result = addToArray(result, day);
             }
         }

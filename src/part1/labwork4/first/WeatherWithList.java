@@ -12,7 +12,7 @@ import java.util.LinkedHashSet;
 
 
 /**
- * Represents weather data with an ArrayList of days.
+ * Represents weather data with a List of days.
  * This class is inherited from the abstract {@link WeatherWithCollection}
  */
 public class WeatherWithList extends WeatherWithCollection {
@@ -30,7 +30,7 @@ public class WeatherWithList extends WeatherWithCollection {
      *
      * @param season  the season
      * @param comment the comment
-     * @param days    the ArrayList of days
+     * @param days    the list of days
      */
     public WeatherWithList(String season, String comment, List<Day> days) {
         super(season, comment);
@@ -172,7 +172,7 @@ public class WeatherWithList extends WeatherWithCollection {
 
     /**
      * Overridden comment sorting method using the default sort function of interface {@code List}.
-     * Is provided by {@code Comparator}.
+     * Is provided by {@link Comparator}.
      */
     @Override
     public void sortByComment() {
