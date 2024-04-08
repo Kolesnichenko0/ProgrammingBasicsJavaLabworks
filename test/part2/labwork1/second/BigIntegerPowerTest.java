@@ -65,7 +65,7 @@ class BigIntegerPowerTest {
      */
     @Test
     @DisplayName("Should generate BigInteger with the expected number of digits")
-    void generateRandomBigInteger() {
+    public void generateRandomBigInteger() {
         BigInteger result = BigIntegerPower.generateRandomBigInteger();
         int expectedNumDigits = BigIntegerPower.NUM_DIGITS;
         int actualNumDigits = result.toString().length();
@@ -76,7 +76,7 @@ class BigIntegerPowerTest {
 
 //    @ParameterizedTest
 //    @MethodSource("provideDataForPowerCalculationTests")
-//    void powerUsingPowFunction(int exponent, BigInteger expected) {
+//    public void powerUsingPowFunction(int exponent, BigInteger expected) {
 //        if (exponent < 0) {
 //            assertThrows(ArithmeticException.class,
 //                    () -> BigIntegerPower.powerUsingPowFunction(BASE, exponent));
@@ -88,7 +88,7 @@ class BigIntegerPowerTest {
 //
 //    @ParameterizedTest
 //    @MethodSource("provideDataForPowerCalculationTests")
-//    void powerUsingMultiplication(int exponent, BigInteger expected) {
+//    public void powerUsingMultiplication(int exponent, BigInteger expected) {
 //        if (exponent < 0) {
 //            assertThrows(ArithmeticException.class,
 //                    () -> BigIntegerPower.powerUsingMultiplication(BASE, exponent));
@@ -104,7 +104,7 @@ class BigIntegerPowerTest {
     @ParameterizedTest(name = "Test {index}: exponent = {1}, expected = {2}")
     @DisplayName("Should calculate power. First 3 tests using function powerUsingPowFunction, second 3 tests - powerUsingMultiplication")
     @MethodSource("provideDataForPowerCalculationTests")
-    void testPowerCalculation(BiFunction<BigInteger, Integer, BigInteger> function,
+    public void testPowerCalculation(BiFunction<BigInteger, Integer, BigInteger> function,
                               int exponent, BigInteger expected) {
         if (exponent < 0) {
             assertThrows(ArithmeticException.class,
@@ -120,7 +120,7 @@ class BigIntegerPowerTest {
      */
     @Test
     @DisplayName("Should format BigInteger correctly")
-    void formatBigInteger() {
+    public void formatBigInteger() {
         String actualString = BigIntegerPower.formatBigInteger(BASE);
         int actualLength = actualString.length();
         int expectedLength = BASE.toString().length();

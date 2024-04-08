@@ -28,7 +28,7 @@ class WeatherWithStreamsTest {
      * @param days the list of days
      * @return an array of temperatures
      */
-    static double[] getTemperatures(List<Day> days) {
+    private static double[] getTemperatures(List<Day> days) {
         return days.stream()
                 .mapToDouble(Day::getTemperature)
                 .toArray();
@@ -40,14 +40,14 @@ class WeatherWithStreamsTest {
      * @param days the array of days
      * @return an array of temperatures
      */
-    static double[] getTemperatures(Day[] days) {
+    private static double[] getTemperatures(Day[] days) {
         return Arrays.stream(days)
                 .mapToDouble(Day::getTemperature)
                 .toArray();
     }
 
     @BeforeEach
-    void setup() {
+    public void setup() {
         weatherWithStreams = new WeatherWithStreams("Winter", "7 days are described with streams",
                 Arrays.asList(
                         new Day("09.12.22", -5.2, "Cloudy"),
@@ -67,7 +67,7 @@ class WeatherWithStreamsTest {
          */
         @Test
         @DisplayName("Should Set Days")
-        void setDays() {
+        public void setDays() {
             List<Day> days = new ArrayList<>(weatherWithStreams.getDaysList());
             days.add(new Day("16.12.22", 1.3, "Windy"));
             days.add(new Day("17.12.22", 1.0, "Cloudy"));
@@ -82,7 +82,7 @@ class WeatherWithStreamsTest {
          */
         @Test
         @DisplayName("Should Handle Duplicate Days When Setting")
-        void setDaysWithDuplicate() {
+        public void setDaysWithDuplicate() {
             List<Day> days = new ArrayList<>(weatherWithStreams.getDaysList());
             Day duplicateDay = new Day("15.12.22", 1.0, "Windy and sunny");
             days.add(duplicateDay);
@@ -101,7 +101,7 @@ class WeatherWithStreamsTest {
          */
         @Test
         @DisplayName("Should Sort By Decreasing Temperature")
-        void sortByDecreasingTemperature() {
+        public void sortByDecreasingTemperature() {
             weatherWithStreams.sortByDecreasingTemperature();
             double[] expected = new double[]{1.0, 0.0, -3.1, -3.2, -5.2, -6.0, -7.6};
             double[] actual = getTemperatures(weatherWithStreams.getDaysList());
@@ -114,7 +114,7 @@ class WeatherWithStreamsTest {
          */
         @Test
         @DisplayName("Should Sort By Comment")
-        void sortByComment() {
+        public void sortByComment() {
             weatherWithStreams.sortByComment();
             double[] expected = new double[]{-5.2, -7.6, -3.2, 0.0, -6.0, -3.1, 1.0};
             double[] actual = getTemperatures(weatherWithStreams.getDaysList());
@@ -130,7 +130,7 @@ class WeatherWithStreamsTest {
          */
         @Test
         @DisplayName("Should Calculate Average Temperature")
-        void calculateAverageTemperature() {
+        public void calculateAverageTemperature() {
             assertEquals(-3.44, weatherWithStreams.calculateAverageTemperature(), 0.005);
         }
 
@@ -141,7 +141,7 @@ class WeatherWithStreamsTest {
         @ParameterizedTest
         @DisplayName("Should Return Null When Calculating Average Temperature Without Days")
         @EmptySource
-        void calculateAverageTemperatureWithoutDays(List<Day> emptyList) {
+        public void calculateAverageTemperatureWithoutDays(List<Day> emptyList) {
             weatherWithStreams.setDays(emptyList);
             assertNull(weatherWithStreams.calculateAverageTemperature());
         }
@@ -155,7 +155,7 @@ class WeatherWithStreamsTest {
          */
         @Test
         @DisplayName("Should Find One Day With Max Temperature")
-        void findMaxTemperatureDaysWithOneMaxTemperature() {
+        public void findMaxTemperatureDaysWithOneMaxTemperature() {
             double[] expected = new double[]{1.0};
             double[] actual = getTemperatures(weatherWithStreams.findMaxTemperatureDays());
             assertArrayEquals(expected, actual);
@@ -167,7 +167,7 @@ class WeatherWithStreamsTest {
          */
         @Test
         @DisplayName("Should Find Two Days With Max Temperature")
-        void findMaxTemperatureDaysWithMultipleMaxTemperature() {
+        public void findMaxTemperatureDaysWithMultipleMaxTemperature() {
             List<Day> days = new ArrayList<>(weatherWithStreams.getDaysList());
             Day duplicateMaxTemperatureDay = new Day("16.12.22", 1.0, "Windy");
             days.add(duplicateMaxTemperatureDay);
@@ -185,7 +185,7 @@ class WeatherWithStreamsTest {
         @ParameterizedTest
         @DisplayName("Should Return Null When Finding Max Temperature Days Without Days")
         @EmptySource
-        void findMaxTemperatureDaysWithoutDays(List<Day> emptyList) {
+        public void findMaxTemperatureDaysWithoutDays(List<Day> emptyList) {
             weatherWithStreams.setDays(emptyList);
             assertNull(weatherWithStreams.findMaxTemperatureDays());
         }
@@ -196,7 +196,7 @@ class WeatherWithStreamsTest {
          */
         @Test
         @DisplayName("Should Find One Day With Longest Comment")
-        void findLongestCommentDaysWithOneMaxTemperature() {
+        public void findLongestCommentDaysWithOneMaxTemperature() {
             double[] expected = new double[]{0.0};
             double[] actual = getTemperatures(weatherWithStreams.findLongestCommentDays());
             assertArrayEquals(expected, actual);
@@ -208,7 +208,7 @@ class WeatherWithStreamsTest {
          */
         @Test
         @DisplayName("Should Find Two Days With Longest Comment")
-        void findLongestCommentDaysWithMultipleMaxTemperature() {
+        public void findLongestCommentDaysWithMultipleMaxTemperature() {
             List<Day> days = new ArrayList<>(weatherWithStreams.getDaysList());
             Day duplicateLongestCommentDay = new Day("16.12.22", 2.0, "Rainy and cloudy");
             days.add(duplicateLongestCommentDay);
@@ -226,7 +226,7 @@ class WeatherWithStreamsTest {
         @ParameterizedTest
         @DisplayName("Should Return Null When Finding Longest Comment Days Without Days")
         @EmptySource
-        void findLongestCommentDaysWithoutDays(List<Day> emptyList) {
+        public void findLongestCommentDaysWithoutDays(List<Day> emptyList) {
             weatherWithStreams.setDays(emptyList);
             assertNull(weatherWithStreams.findLongestCommentDays());
         }

@@ -1,4 +1,4 @@
-package part2.labwork1.addition;
+package part2.labwork1.sandbox;
 
 import java.math.BigDecimal;
 
