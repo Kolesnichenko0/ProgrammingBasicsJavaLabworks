@@ -13,7 +13,7 @@ public class BigIntegerPower {
     /** The number of digits of our number. */
     public static final int NUM_DIGITS = 30;
     /** The maximum number of digits to be displayed in the console. */
-    public static final int MAX_DISPLAY_DIGITS = 4;
+    public static final int MAX_DISPLAY_DIGITS = 60;
 
     /**
      * Generates a random BigInteger with a '{@value NUM_DIGITS}' of digits.
