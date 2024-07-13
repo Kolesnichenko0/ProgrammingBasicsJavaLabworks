@@ -1,0 +1,190 @@
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to add all weathers...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to add weather: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather added successfully: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to add weather: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather added successfully: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to add weather: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather added successfully: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to add weather: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather added successfully: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - All weathers added successfully
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get all weathers...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: summer with sort order: UNSORTED
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: summer
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: summer with sort order: UNSORTED
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: winter with sort order: UNSORTED
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: winter
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: winter with sort order: UNSORTED
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: spring with sort order: UNSORTED
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: spring
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: spring with sort order: UNSORTED
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: autumn with sort order: UNSORTED
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: autumn
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: autumn with sort order: UNSORTED
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - All weathers retrieved successfully
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to remove weather and days for season: winter
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: winter
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: winter
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to remove weather: winter
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather removed successfully: winter
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather and days removed successfully for season: winter
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get all weathers...
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: summer with sort order: UNSORTED
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: summer
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: summer
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: summer with sort order: UNSORTED
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: spring with sort order: UNSORTED
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: spring
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: spring
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: spring with sort order: UNSORTED
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: autumn with sort order: UNSORTED
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: autumn
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: autumn
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: autumn with sort order: UNSORTED
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - All weathers retrieved successfully
+17:38:33 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: winter
+17:38:33 [JavaFX Application Thread] ERROR part2.labwork5.first.dao.WeatherDAO - No result found for season: winter
+17:40:12 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to add weather: winter
+17:40:12 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather added successfully: winter
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get all weathers...
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: summer with sort order: UNSORTED
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: summer
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: summer
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: summer with sort order: UNSORTED
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: spring with sort order: UNSORTED
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: spring
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: spring
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: spring with sort order: UNSORTED
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: autumn with sort order: UNSORTED
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: autumn
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: autumn
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: autumn with sort order: UNSORTED
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: winter with sort order: UNSORTED
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: winter
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: winter
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: winter with sort order: UNSORTED
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - All weathers retrieved successfully
+17:42:22 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: winter
+17:42:22 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:42:22 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:42:22 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: winter
+17:42:22 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: winter
+17:42:22 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: winter
+17:42:53 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: winter
+17:42:53 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:42:53 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:42:53 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: winter
+17:42:53 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: winter
+17:42:53 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: winter
+17:43:22 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: winter
+17:43:22 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: winter
+17:43:37 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: summer
+17:43:37 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: summer
+17:43:44 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: summer
+17:43:44 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: summer
+17:43:55 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: summer
+17:43:55 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: summer
+17:44:06 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: summer sorted by decreasing temperature
+17:44:06 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: summer with sort order: BY_DECREASING_TEMPERATURE
+17:44:06 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: summer
+17:44:06 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: summer
+17:44:06 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: summer with sort order: BY_DECREASING_TEMPERATURE
+17:44:06 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: summer sorted by decreasing temperature
+17:44:15 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: summer sorted by comment
+17:44:15 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: summer with sort order: BY_COMMENT
+17:44:15 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: summer
+17:44:15 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: summer
+17:44:15 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: summer with sort order: BY_COMMENT
+17:44:15 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: summer sorted by comment
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to remove weather and days for season: summer
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather by season: summer
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather retrieved successfully for season: summer
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to remove weather: summer
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather removed successfully: summer
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather and days removed successfully for season: summer
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get all weathers...
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: spring with sort order: UNSORTED
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: spring
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: spring
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: spring with sort order: UNSORTED
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: autumn with sort order: UNSORTED
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: autumn
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: autumn
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: autumn with sort order: UNSORTED
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data for season: winter with sort order: UNSORTED
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: winter
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - ID retrieved successfully for season: winter
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully for season: winter with sort order: UNSORTED
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - All weathers retrieved successfully
+17:46:35 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get ID by season: summer
+17:46:35 [JavaFX Application Thread] ERROR part2.labwork5.first.dao.WeatherDAO - No result found for season: summer
+17:48:29 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get all weathers data from DB...
+17:48:29 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:48:29 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:48:29 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:48:29 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:48:29 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Attempting to get weather data from DB...
+17:48:29 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - Weather data retrieved successfully from DB
+17:48:29 [JavaFX Application Thread] INFO part2.labwork5.first.dao.WeatherDAO - All weathers data retrieved successfully from DB

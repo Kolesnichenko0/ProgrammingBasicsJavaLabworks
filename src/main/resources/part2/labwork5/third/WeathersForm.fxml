@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="776.0" prefWidth="1223.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="part2.labwork5.third.WeathersController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#doNew" text="New" />
+                  <MenuItem mnemonicParsing="false" onAction="#doOpen" text="Open..." />
+                  <MenuItem mnemonicParsing="false" onAction="#doSave" text="Save..." />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#doExit" text="Exit" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#doAbout" text="About" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <left>
+      <AnchorPane prefHeight="568.0" prefWidth="310.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="20.0" text="Select the necessary action" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="15.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Label>
+            <Button fx:id="addDayButton" layoutX="11.0" layoutY="307.0" mnemonicParsing="false" onAction="#doAddDay" prefHeight="22.0" prefWidth="257.0" text="Add day" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="315.0" />
+            <Button fx:id="removeDayButton" layoutX="12.0" layoutY="699.0" mnemonicParsing="false" onAction="#doRemoveDay" prefHeight="22.0" prefWidth="255.0" text="Remove day" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="695.0" />
+            <Button fx:id="addWeatherButton" layoutX="11.0" layoutY="269.0" mnemonicParsing="false" onAction="#doAddWeather" prefHeight="22.0" prefWidth="262.0" text="Add weather" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="280.0" />
+            <Button fx:id="removeWeatherAndDaysButton" layoutX="11.0" layoutY="410.0" mnemonicParsing="false" onAction="#doRemoveWeatherAndDays" prefHeight="22.0" prefWidth="262.0" text="Remove weather and related days" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="415.0" />
+            <Button fx:id="searchByLongestCommentButton" layoutX="11.0" layoutY="108.0" mnemonicParsing="false" onAction="#doSearchByLongestComment" prefHeight="22.0" prefWidth="289.0" text="Search by longest comment" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="105.0" />
+            <Button fx:id="searchByMaximumTemperatureButton" layoutX="12.0" layoutY="71.0" mnemonicParsing="false" onAction="#doSearchByMaximumTemperature" prefHeight="22.0" prefWidth="288.0" text="Search by maximum temperature" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="70.0" />
+            <Button fx:id="searchByWordFragmentButton" layoutX="11.0" layoutY="213.0" mnemonicParsing="false" onAction="#doSearchByWordFragment" prefHeight="22.0" prefWidth="288.0" text="Search by word fragment" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="210.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="11.0" layoutY="40.0" prefHeight="25.0" prefWidth="285.0" text="All weather" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="40.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="11.0" layoutY="244.0" prefHeight="25.0" prefWidth="287.0" text="Specific weather" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="250.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="searchByWordFragmentInSpecificWeatherButton" layoutX="12.0" layoutY="515.0" mnemonicParsing="false" onAction="#doSearchByWordFragmentInSpecificWeather" prefHeight="22.0" prefWidth="288.0" text="Search by word fragment" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="520.0" />
+            <Button fx:id="searchByMaximumTemperatureInSpecificWheatherButton" layoutX="11.0" layoutY="447.0" mnemonicParsing="false" onAction="#doSearchByMaximumTemperatureInSpecificWeather" prefHeight="22.0" prefWidth="288.0" text="Search by maximum temperature" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="450.0" />
+            <Button fx:id="searchByLongestCommentInSpecificWheatherButton" layoutX="11.0" layoutY="484.0" mnemonicParsing="false" onAction="#doSearchByLongestCommentInSpecificWeather" prefHeight="22.0" prefWidth="289.0" text="Search by longest comment" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="485.0" />
+            <Button fx:id="sortByDecreasingTemperatureButton" layoutX="11.0" layoutY="554.0" mnemonicParsing="false" onAction="#doSortByDecreasingTemperature" prefHeight="22.0" prefWidth="282.0" text="Sort by decreasing temperature" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="555.0" />
+            <Button fx:id="sortByCommentButton" layoutX="11.0" layoutY="593.0" mnemonicParsing="false" onAction="#doSortByComment" prefHeight="22.0" prefWidth="285.0" text="Sort by comment alphabetically" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="590.0" />
+            <TextField fx:id="textFieldSeason" layoutX="11.0" layoutY="372.0" prefHeight="31.0" prefWidth="287.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="375.0" />
+            <Label layoutX="11.0" layoutY="344.0" text="Season" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="350.0" />
+            <Label layoutX="13.0" layoutY="631.0" text="Date" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="630.0" />
+            <TextField fx:id="textFieldDate" layoutX="13.0" layoutY="659.0" prefHeight="22.0" prefWidth="287.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="655.0" />
+            <TextField fx:id="textFieldWordFragment" layoutX="12.0" layoutY="170.0" prefHeight="22.0" prefWidth="287.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="170.0" />
+            <Label layoutX="11.0" layoutY="149.0" text="Word Fragment" AnchorPane.topAnchor="145.0" />
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <VBox prefHeight="328.0" prefWidth="568.0" spacing="10.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="563.0" text="Days">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TableView fx:id="daysTableView" prefHeight="300.0" prefWidth="563.0">
+                          <columns>
+                              <TableColumn fx:id="daysTableColumnId" editable="false" prefWidth="39.0" text="id" />
+                              <TableColumn fx:id="daysTableColumnWeatherId" editable="false" prefWidth="101.0" text="weather_id" />
+                            <TableColumn fx:id="daysTableColumnDate" editable="false" prefWidth="109.0" text="date" />
+                            <TableColumn fx:id="daysTableColumnTemperature" editable="false" prefWidth="103.0" text="temperature" />
+                              <TableColumn fx:id="daysTableColumnComment" editable="false" prefWidth="205.0" text="comment" />
+                          </columns>
+                           <VBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </VBox.margin>
+                        </TableView>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <VBox layoutX="-1.0" prefHeight="317.0" prefWidth="568.0" spacing="10.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="563.0" text="Weathers">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TableView fx:id="weathersTableView" prefHeight="300.0" prefWidth="563.0">
+                           <columns>
+                              <TableColumn fx:id="weathersTableColumnId" editable="false" prefWidth="39.0" text="id" />
+                              <TableColumn fx:id="weathersTableColumnSeason" editable="false" prefWidth="101.0" text="season" />
+                              <TableColumn fx:id="weathersTableColumnComment" editable="false" prefWidth="417.0" text="comment" />
+                           </columns>
+                        </TableView>
+                     </children>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </padding>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
+   <right>
+      <AnchorPane prefHeight="744.0" prefWidth="343.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="textAreaResults" layoutX="11.0" layoutY="32.0" prefHeight="682.0" prefWidth="230.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="32.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="11.0" layoutY="2.0" text="Result" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

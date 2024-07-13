@@ -1,0 +1,75 @@
+{
+  "weathers": {
+    "list": [
+      {
+        "weather": [
+          {
+            "season": "spring",
+            "comment": "Mild and rainy",
+            "days": [
+              {
+                "day": [
+                  {
+                    "date": "2024-03-21",
+                    "temperature": 15,
+                    "comment": "Warm day",
+                    "id": 5,
+                    "weatherId": 3
+                  },
+                  {
+                    "date": "2024-03-22",
+                    "temperature": 18,
+                    "comment": "Very warm day",
+                    "id": 6,
+                    "weatherId": 3
+                  },
+                  {
+                    "date": "2024-03-23",
+                    "temperature": 18,
+                    "comment": "Very warm day",
+                    "id": 7,
+                    "weatherId": 3
+                  }
+                ]
+              }
+            ],
+            "id": 3
+          },
+          {
+            "season": "autumn",
+            "comment": "Cool and windy",
+            "days": [
+              {
+                "day": [
+                  {
+                    "date": "2024-09-21",
+                    "temperature": 10,
+                    "comment": "Cool day",
+                    "id": 8,
+                    "weatherId": 4
+                  },
+                  {
+                    "date": "2024-09-22",
+                    "temperature": 8,
+                    "comment": "Very cool day",
+                    "id": 9,
+                    "weatherId": 4
+                  }
+                ]
+              }
+            ],
+            "id": 4
+          },
+          {
+            "season": "winter",
+            "comment": "Cool",
+            "days": [
+              ""
+            ],
+            "id": 5
+          }
+        ]
+      }
+    ]
+  }
+}

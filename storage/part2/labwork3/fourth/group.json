@@ -1,0 +1,23 @@
+{"group": {
+  "name": "A21",
+  "students": [
+    {
+      "idNumber": 0,
+      "name": "Tom",
+      "surname": "Gibson",
+      "ratingScore": 85.5
+    },
+    {
+      "idNumber": 1,
+      "name": "Alice",
+      "surname": "Smith",
+      "ratingScore": 92.0
+    },
+    {
+      "idNumber": 2,
+      "name": "Bob",
+      "surname": "Jordan",
+      "ratingScore": 78.0
+    }
+  ]
+}}

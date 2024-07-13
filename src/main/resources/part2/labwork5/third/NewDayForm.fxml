@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="216.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="part2.labwork5.third.NewDayController">
+    <children>
+          <HBox layoutX="160.0" layoutY="187.0" prefHeight="31.0" prefWidth="170.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="187.0">
+         <children>
+                  <Button fx:id="OKButton" onAction="#doOK" prefHeight="31.0" prefWidth="80.0" text="OK" />
+                  <Button fx:id="cancelButton" onAction="#doCancel" prefHeight="31.0" prefWidth="80.0" text="Cancel" />
+         </children>
+          </HBox>
+      <TextField fx:id="textFieldSeason" layoutX="90.0" layoutY="22.0" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />
+          <Label layoutX="16.0" layoutY="25.0" text="Season:" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="25.0" />
+      <Label layoutX="15.0" layoutY="65.0" text="Date:" AnchorPane.leftAnchor="15.0" />
+      <TextField fx:id="textFieldDate" layoutX="90.0" layoutY="63.0" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="60.0" />
+      <Label layoutX="16.0" layoutY="105.0" text="Temperature:" AnchorPane.leftAnchor="16.0" />
+      <TextField fx:id="textFieldTemperature" layoutX="90.0" layoutY="100.0" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="100.0" />
+      <TextField fx:id="textFieldComment" layoutX="110.0" layoutY="141.0" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="140.0" />
+      <Label layoutX="17.0" layoutY="146.0" text="Comment:" />
+    </children>
+</AnchorPane>

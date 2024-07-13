@@ -1,0 +1,217 @@
+17:35:51 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Starting application...
+17:35:51 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Connecting to MySQL system database and creating database 'weather_db' with 2 tables:'days','weathers'...
+17:35:52 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Creating DAOManager for WeathersController...
+17:35:52 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Creating DayService and WeatherService for WeathersController...
+17:35:52 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Setting up Days and Weathers tables...
+17:35:52 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - WeathersController initialized successfully
+17:35:53 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Application started successfully
+17:36:00 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Starting a new session...
+17:36:00 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - New session started successfully
+17:36:54 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to open a file...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to update the days table...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Days table updated successfully
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to update the weathers table...
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Weathers table updated successfully
+17:37:05 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - File opened successfully
+17:37:05 [JavaFX Application Thread] DEBUG part2.labwork5.third.WeathersFX - Opened file: C:\Users\HP\IdeaProjects\maven\ProgrammingBasicsJavaLabworks\storage\part2\labwork5\first\weathers.json
+17:37:22 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by maximum temperature
+17:37:22 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Search by maximum temperature successfully
+17:37:34 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by longest comment
+17:37:34 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Search by longest comment successfully
+17:37:46 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by word fragment: 
+17:37:46 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Search by word fragment successfully for word fragment: 
+17:37:54 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by word fragment: cold
+17:37:54 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Search by word fragment successfully for word fragment: cold
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to remove weather and associated days for season: winter
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Weather and associated days removed successfully for season: winter
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to update the days table...
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Days table updated successfully
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to update the weathers table...
+17:38:21 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Weathers table updated successfully
+17:38:33 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by maximum temperature in season: winter
+17:38:33 [JavaFX Application Thread] ERROR part2.labwork5.third.WeathersFX - Incorrect weather
+17:38:53 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to add a new weather...
+17:38:53 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Creating DAOManager for NewWeatherController...
+17:38:53 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Creating DayService and WeatherService for NewWeatherController...
+17:38:53 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - NewWeatherController initialized successfully
+17:39:16 [JavaFX Application Thread] WARN part2.labwork5.third.WeathersFX - Attempted to add a weather with invalid season: wint
+17:40:12 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Weather added successfully: winter, Cool
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to update the weathers table...
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Weathers table updated successfully
+17:40:20 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - New weather added successfully
+17:40:27 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to add a new day...
+17:40:27 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Creating DAOManager for NewWeatherController...
+17:40:27 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Creating DayService and WeatherService for NewWeatherController...
+17:40:27 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - NewDayController initialized successfully
+17:40:50 [JavaFX Application Thread] WARN part2.labwork5.third.WeathersFX - Attempted to add a day with one or more empty fields
+17:41:49 [JavaFX Application Thread] WARN part2.labwork5.third.WeathersFX - Attempted to add a day with invalid date: 2024-11-2
+17:42:04 [JavaFX Application Thread] ERROR part2.labwork5.third.WeathersFX - Attempted to add a day with non-numeric temperature: a
+java.lang.NumberFormatException: For input string: "a"
+	at jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054) ~[?:?]
+	at jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[?:?]
+	at java.lang.Double.parseDouble(Double.java:651) ~[?:?]
+	at part2.labwork5.third.NewDayController.doOK(NewDayController.java:84) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx.base.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270) ~[javafx.base.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84) ~[javafx.fxml.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853) ~[javafx.fxml.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726) ~[javafx.fxml.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx.base.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx.base.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx.graphics.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx.controls.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx.controls.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx.controls.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx.base.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx.base.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx.graphics.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx.graphics.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx.graphics.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx.graphics.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx.graphics.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx.graphics.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx.graphics.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx.graphics.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) ~[javafx.graphics.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[javafx.graphics.jar:?]
+	at com.sun.glass.ui.win.WinApplication._enterNestedEventLoopImpl(Native Method) ~[javafx.graphics.jar:?]
+	at com.sun.glass.ui.win.WinApplication._enterNestedEventLoop(WinApplication.java:212) ~[javafx.graphics.jar:?]
+	at com.sun.glass.ui.Application.enterNestedEventLoop(Application.java:515) ~[javafx.graphics.jar:?]
+	at com.sun.glass.ui.EventLoop.enter(EventLoop.java:107) ~[javafx.graphics.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.enterNestedEventLoop(QuantumToolkit.java:650) ~[javafx.graphics.jar:?]
+	at javafx.stage.Stage.showAndWait(Stage.java:469) ~[javafx.graphics.jar:?]
+	at part2.labwork5.third.WeathersController.doAddDay(WeathersController.java:396) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:72) ~[javafx.base.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:270) ~[javafx.base.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84) ~[javafx.fxml.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1853) ~[javafx.fxml.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1726) ~[javafx.fxml.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx.base.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx.base.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8875) ~[javafx.graphics.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx.controls.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:207) ~[javafx.controls.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx.controls.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:232) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:189) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx.base.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx.base.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx.base.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3984) ~[javafx.graphics.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1890) ~[javafx.graphics.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2708) ~[javafx.graphics.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx.graphics.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx.graphics.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx.graphics.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx.graphics.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx.graphics.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:551) ~[javafx.graphics.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[javafx.graphics.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx.graphics.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185) ~[javafx.graphics.jar:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+17:42:22 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Day added successfully: 2024-11-22, -30.0, Cold
+17:42:34 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to update the days table...
+17:42:34 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Days table updated successfully
+17:42:34 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - New day added successfully
+17:42:36 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to add a new day...
+17:42:36 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Creating DAOManager for NewWeatherController...
+17:42:36 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Creating DayService and WeatherService for NewWeatherController...
+17:42:36 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - NewDayController initialized successfully
+17:42:53 [JavaFX Application Thread] ERROR part2.labwork5.third.WeathersFX - Failed to add data to the database
+17:43:10 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to update the days table...
+17:43:10 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Days table updated successfully
+17:43:10 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - New day added successfully
+17:43:22 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to remove day for season: winter and date: 2024-11-22
+17:43:22 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Day removed successfully for season: winter and date: 2024-11-22
+17:43:22 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to update the days table...
+17:43:22 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Days table updated successfully
+17:43:37 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by maximum temperature in season: summer
+17:43:37 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Search by maximum temperature successfully in season: summer
+17:43:44 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by longest comment in season: summer
+17:43:44 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Search by longest comment successfully in season: summer
+17:43:55 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by word fragment: cold in season: summer
+17:43:55 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Search by word fragment successfully for word fragment: cold in season: summer
+17:44:06 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to sort by decreasing temperature for season: summer
+17:44:06 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Sorted by decreasing temperature successfully for season: summer
+17:44:15 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to sort by comment for season: summer
+17:44:15 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Sorted by comment successfully for season: summer
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to remove weather and associated days for season: summer
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Weather and associated days removed successfully for season: summer
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to update the days table...
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Days table updated successfully
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to update the weathers table...
+17:46:18 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Weathers table updated successfully
+17:46:29 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by word fragment: cold
+17:46:29 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Search by word fragment successfully for word fragment: cold
+17:46:35 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by word fragment: cold in season: summer
+17:46:35 [JavaFX Application Thread] ERROR part2.labwork5.third.WeathersFX - Incorrect weather
+17:46:44 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by word fragment: cold
+17:46:44 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Search by word fragment successfully for word fragment: cold
+17:46:51 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by word fragment: very
+17:46:51 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Search by word fragment successfully for word fragment: very
+17:46:55 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to search by maximum temperature
+17:46:55 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Search by maximum temperature successfully
+17:47:35 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - Attempting to save a file...
+17:48:59 [JavaFX Application Thread] INFO part2.labwork5.third.WeathersFX - File saved successfully
+17:48:59 [JavaFX Application Thread] DEBUG part2.labwork5.third.WeathersFX - Saved file: C:\Users\HP\IdeaProjects\maven\ProgrammingBasicsJavaLabworks\storage\part2\labwork5\third\result_weathers.json
+17:50:11 [main] INFO part2.labwork5.third.WeathersFX - Application closed

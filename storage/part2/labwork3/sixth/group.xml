@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groupData name="A21">
+    <StudentsData>
+        <StudentData name="Tom" surname="Gibson">
+            <RatingScoreData>85.5</RatingScoreData>
+        </StudentData>
+        <StudentData name="Alice" surname="Smith">
+            <RatingScoreData>92.0</RatingScoreData>
+        </StudentData>
+        <StudentData name="Bob" surname="Jordan">
+            <RatingScoreData>78.0</RatingScoreData>
+        </StudentData>
+    </StudentsData>
+</groupData>

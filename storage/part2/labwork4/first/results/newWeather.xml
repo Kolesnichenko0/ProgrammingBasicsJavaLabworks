@@ -1,0 +1,16 @@
+<weather>
+  <season>Spring</season>
+  <comment>2 days are described</comment>
+  <days>
+    <day>
+      <date>20.12.2023</date>
+      <temperature>4.4</temperature>
+      <comment>Windy</comment>
+    </day>
+    <day>
+      <date>21.12.2023</date>
+      <temperature>5.3</temperature>
+      <comment>Sunny</comment>
+    </day>
+  </days>
+</weather>

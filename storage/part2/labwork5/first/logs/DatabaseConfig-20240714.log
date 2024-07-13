@@ -1,0 +1,3 @@
+01:27:30 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Successfully connected to the database
+01:27:30 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Database and tables dropped successfully if they existed
+01:27:30 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Database and tables created successfully

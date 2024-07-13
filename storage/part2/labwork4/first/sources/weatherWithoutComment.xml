@@ -1,0 +1,40 @@
+<weather>
+    <season>Winter</season>
+    <days>
+        <day>
+            <date>09.12.22</date>
+            <temperature>-5.2</temperature>
+            <comment>Cloudy</comment>
+        </day>
+        <day>
+            <date>12.12.22</date>
+            <temperature>-7.6</temperature>
+            <comment>Drizzly</comment>
+        </day>
+        <day>
+            <date>13.12.22</date>
+            <temperature>-3.2</temperature>
+            <comment>Foggy</comment>
+        </day>
+        <day>
+            <date>14.12.22</date>
+            <temperature>0.0</temperature>
+            <comment>Foggy and cloudy</comment>
+        </day>
+        <day>
+            <date>11.12.22</date>
+            <temperature>-6.0</temperature>
+            <comment>Sunny</comment>
+        </day>
+        <day>
+            <date>10.12.22</date>
+            <temperature>-3.1</temperature>
+            <comment>Windy</comment>
+        </day>
+        <day>
+            <date>15.12.22</date>
+            <temperature>1.0</temperature>
+            <comment>Windy and sunny</comment>
+        </day>
+    </days>
+</weather>

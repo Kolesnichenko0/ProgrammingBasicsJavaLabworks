@@ -1,0 +1,41 @@
+<climate>
+    <period>Winter</period>
+    <note>7 days are described with streams</note>
+    <periods>
+        <period>
+            <day>09.12.22</day>
+            <temp>-5.2</temp>
+            <note>Cloudy</note>
+        </period>
+        <period>
+            <day>12.12.22</day>
+            <temp>-7.6</temp>
+            <note>Drizzly</note>
+        </period>
+        <period>
+            <day>13.12.22</day>
+            <temp>-3.2</temp>
+            <note>Foggy</note>
+        </period>
+        <period>
+            <day>14.12.22</day>
+            <temp>0.0</temp>
+            <note>Foggy and cloudy</note>
+        </period>
+        <period>
+            <day>11.12.22</day>
+            <temp>-6.0</temp>
+            <note>Sunny</note>
+        </period>
+        <period>
+            <day>10.12.22</day>
+            <temp>-3.1</temp>
+            <note>Windy</note>
+        </period>
+        <period>
+            <day>15.12.22</day>
+            <temp>1.0</temp>
+            <note>Windy and sunny</note>
+        </period>
+    </periods>
+</climate>

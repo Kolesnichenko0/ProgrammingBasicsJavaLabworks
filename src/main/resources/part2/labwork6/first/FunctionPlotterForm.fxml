@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="part2.labwork6.first.FunctionPlotterController">
+   <left>
+        <AnchorPane prefHeight="541.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+            <children>
+                <TextField fx:id="textFieldA" layoutX="58.0" layoutY="135.0" prefHeight="30.0" prefWidth="174.0" AnchorPane.leftAnchor="53.0" AnchorPane.rightAnchor="270.0" AnchorPane.topAnchor="135.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <TextField fx:id="textFieldB" layoutX="294.0" layoutY="135.0" prefHeight="30.0" prefWidth="167.0" AnchorPane.leftAnchor="292.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="135.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <Label layoutX="11.0" layoutY="140.0" prefHeight="29.0" prefWidth="22.0" text="a:" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="453.0" AnchorPane.topAnchor="135.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+                <TextField fx:id="textFieldFunctionF" layoutX="58.0" layoutY="241.0" prefHeight="30.0" prefWidth="174.0" AnchorPane.leftAnchor="53.0" AnchorPane.rightAnchor="270.0" AnchorPane.topAnchor="235.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <TextField fx:id="textFieldFunctionG" layoutX="296.0" layoutY="241.0" prefHeight="30.0" prefWidth="179.0" AnchorPane.leftAnchor="292.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="235.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <TextField fx:id="textFieldFrom" layoutX="60.0" layoutY="335.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="335.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <TextField fx:id="textFieldTo" layoutX="210.0" layoutY="335.0" prefHeight="30.0" prefWidth="87.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="335.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <TextField fx:id="textFieldStep" layoutX="389.0" layoutY="364.0" AnchorPane.leftAnchor="370.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="335.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <Button layoutX="25.0" layoutY="476.0" minWidth="150.0" mnemonicParsing="false" onAction="#plotGraphClicked" prefHeight="30.0" prefWidth="454.0" text="Plot graph" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="476.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+                <Button layoutX="25.0" layoutY="426.0" mnemonicParsing="false" onAction="#clearFieldsClicked" text="Clear fields" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="270.0" AnchorPane.topAnchor="426.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+                <Button layoutX="270.0" layoutY="426.0" mnemonicParsing="false" onAction="#clearGraphClicked" text="Clear graph" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="426.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Label alignment="CENTER" layoutX="16.0" layoutY="14.0" text="Welcome to Function Plotter" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="15.0">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="141.0" layoutY="53.0" text="We plot the graph of the function h(x) = a ∙ f(x) - g(b ∙ x)" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="45.0">
+               <font>
+                  <Font name="System Italic" size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="TOP" layoutX="250.0" layoutY="79.0" text="Parameters" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="85.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="243.0" layoutY="177.0" text="Functions" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="185.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="244.0" prefHeight="30.0" prefWidth="23.0" text="f(x):" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="235.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="280.0" layoutY="244.0" prefHeight="31.0" prefWidth="27.0" text="g(x):" AnchorPane.leftAnchor="260.0" AnchorPane.topAnchor="235.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="204.0" layoutY="292.0" text="Graph Display Range" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="285.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="366.0" prefHeight="30.0" prefWidth="35.0" text="from:" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="335.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="190.0" layoutY="335.0" prefHeight="30.0" prefWidth="23.0" text="to:" AnchorPane.topAnchor="335.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="335.0" layoutY="335.0" prefHeight="30.0" prefWidth="35.0" text="step:" AnchorPane.topAnchor="335.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="TOP" layoutX="219.0" layoutY="108.0" text="Enter the value of a and b:" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="110.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="TOP" layoutX="196.0" layoutY="198.0" text="Enter the function f(x) and g(x):" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="210.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="TOP" layoutX="198.0" layoutY="323.0" text="Enter the display range for x:" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="310.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="261.0" layoutY="135.0" prefHeight="29.0" prefWidth="22.0" text="b:" AnchorPane.leftAnchor="260.0" AnchorPane.topAnchor="135.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+                <LineChart fx:id="graphChart" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                    <xAxis>
+                        <NumberAxis side="BOTTOM" fx:id="xAxis" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis side="LEFT" />
+                    </yAxis>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+                </LineChart>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

@@ -1,0 +1,9 @@
+11:51:17 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Successfully connected to the database
+11:51:17 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Database and tables dropped successfully if they existed
+11:51:17 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Database and tables created successfully
+14:53:50 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Successfully connected to the database
+14:53:50 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Database and tables dropped successfully if they existed
+14:53:50 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Database and tables created successfully
+15:24:41 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Successfully connected to the database
+15:24:41 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Database and tables dropped successfully if they existed
+15:24:41 [JavaFX Application Thread] INFO part2.labwork5.first.config.DatabaseConfig - Database and tables created successfully

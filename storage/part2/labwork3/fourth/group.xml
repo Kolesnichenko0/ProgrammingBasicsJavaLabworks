@@ -1,0 +1,23 @@
+<group>
+  <name>A21</name>
+  <students>
+    <student>
+      <idNumber>0</idNumber>
+      <name>Tom</name>
+      <surname>Gibson</surname>
+      <ratingScore>85.5</ratingScore>
+    </student>
+    <student>
+      <idNumber>1</idNumber>
+      <name>Alice</name>
+      <surname>Smith</surname>
+      <ratingScore>92.0</ratingScore>
+    </student>
+    <student>
+      <idNumber>2</idNumber>
+      <name>Bob</name>
+      <surname>Jordan</surname>
+      <ratingScore>78.0</ratingScore>
+    </student>
+  </students>
+</group>

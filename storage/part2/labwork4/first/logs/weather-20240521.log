@@ -1,0 +1,133 @@
+11:35:35 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Starting application...
+11:35:37 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Application started successfully
+11:35:52 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to add a new day...
+11:35:52 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:35:52 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - New day(row) added successfully
+11:35:52 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Added day: Date: . Temperature: 0.0 degrees Celsius.
+Comment: 
+11:35:52 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to update the table...
+11:35:52 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Table updated successfully
+11:35:54 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Day date updated successfully
+11:35:54 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Day date changed from:  to: 20.12.2023
+11:35:59 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Day temperature updated successfully
+11:35:59 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Day temperature changed from: 0.0 to: 4.4
+11:36:04 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Day comment updated successfully
+11:36:04 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Day comment changed from:  to: Windy
+11:36:07 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to add a new day...
+11:36:07 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:36:07 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - New day(row) added successfully
+11:36:07 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Added day: Date: . Temperature: 0.0 degrees Celsius.
+Comment: 
+11:36:07 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to update the table...
+11:36:07 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Table updated successfully
+11:36:11 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Day temperature updated successfully
+11:36:11 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Day temperature changed from: 0.0 to: 5.3
+11:36:20 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Day comment updated successfully
+11:36:20 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Day comment changed from:  to: Sunny
+11:36:27 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Day date updated successfully
+11:36:27 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Day date changed from:  to: 21.12.2023
+11:36:39 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to search by word...
+11:36:39 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:36:39 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Search by word completed successfully
+11:36:39 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Searched word: Sunnny. Found days: 
+11:36:42 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to search by word...
+11:36:42 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:36:42 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Search by word completed successfully
+11:36:42 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Searched word: Sunny. Found days: 
+11:36:42 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 21.12.2023. Temperature: 5.3 degrees Celsius.
+Comment: Sunny
+11:37:07 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to search by word fragment...
+11:37:07 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:37:07 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Search by word fragment completed successfully
+11:37:07 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Searched word fragment: Sun. Found days: 
+11:37:07 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 21.12.2023. Temperature: 5.3 degrees Celsius.
+Comment: Sunny
+11:37:12 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to search by word fragment...
+11:37:12 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:37:12 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Search by word fragment completed successfully
+11:37:12 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Searched word fragment: Sun. Found days: 
+11:37:12 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 21.12.2023. Temperature: 5.3 degrees Celsius.
+Comment: Sunny
+11:37:54 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to save a file...
+11:38:33 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:38:33 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Season changed successfully
+11:38:33 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Season changed from: null to: Spring
+11:38:33 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Comment changed successfully
+11:38:33 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Season changed from: null to: 2 days are described
+11:38:33 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Serializing to XML
+11:38:34 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Writing to XML file was successful
+11:39:14 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - File saved successfully
+11:39:14 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Saved file: C:\Users\HP\IdeaProjects\maven\ProgrammingBasicsJavaLabworks\storage\part2\labwork4\first\results\newWeather.xml
+11:40:39 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to sort by decreasing temperature...
+11:40:39 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:40:39 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to update the table...
+11:40:39 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Table updated successfully
+11:40:39 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Sorted by decreasing temperature successfully
+11:40:39 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Sorted weather: Weather:
+Season: null. Comment: null.
+Days:
+Date: 21.12.2023. Temperature: 5.3 degrees Celsius.
+Comment: Sunny
+Date: 20.12.2023. Temperature: 4.4 degrees Celsius.
+Comment: Windy
+
+11:41:51 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to remove the last row...
+11:41:52 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Last row removed successfully
+11:41:52 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Removed day: Date: 20.12.2023. Temperature: 4.4 degrees Celsius.
+Comment: Windy
+11:42:15 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Starting a new session...
+11:42:15 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - New session started successfully
+11:42:48 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to open a file...
+11:43:08 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Deserializing from XML
+11:43:08 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Deserializing from XML file was successful
+11:43:08 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to update the table...
+11:43:08 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Table updated successfully
+11:43:08 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - File opened successfully
+11:43:08 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Opened file: C:\Users\HP\IdeaProjects\maven\ProgrammingBasicsJavaLabworks\storage\part2\labwork4\first\sources\weather.xml
+11:43:16 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to search by max temperature...
+11:43:16 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:43:16 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Search by max temperature completed successfully
+11:43:16 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Found days with max temperature: 
+11:43:16 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 15.12.22. Temperature: 1.0 degrees Celsius.
+Comment: Windy and sunny
+11:43:33 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to search by longest comment...
+11:43:33 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:43:33 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Search by longest comment completed successfully
+11:43:33 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Found days with longest comment: 
+11:43:33 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 14.12.22. Temperature: 0.0 degrees Celsius.
+Comment: Foggy and cloudy
+11:43:57 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Day comment updated successfully
+11:43:57 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Day comment changed from: Windy and sunny to: Sunny
+11:44:03 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to search by word fragment...
+11:44:03 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:44:03 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Search by word fragment completed successfully
+11:44:03 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Searched word fragment: od. Found days: 
+11:44:07 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to search by word fragment...
+11:44:07 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:44:07 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Search by word fragment completed successfully
+11:44:07 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Searched word fragment: y. Found days: 
+11:44:07 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 09.12.22. Temperature: -5.2 degrees Celsius.
+Comment: Cloudy
+11:44:07 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 12.12.22. Temperature: -7.6 degrees Celsius.
+Comment: Drizzly
+11:44:07 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 13.12.22. Temperature: -3.2 degrees Celsius.
+Comment: Foggy
+11:44:07 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 14.12.22. Temperature: 0.0 degrees Celsius.
+Comment: Foggy and cloudy
+11:44:07 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 11.12.22. Temperature: -6.0 degrees Celsius.
+Comment: Sunny
+11:44:07 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 10.12.22. Temperature: -3.1 degrees Celsius.
+Comment: Windy
+11:44:07 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 15.12.22. Temperature: 1.0 degrees Celsius.
+Comment: Sunny
+11:44:12 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Attempting to search by word fragment...
+11:44:12 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Source data updated successfully
+11:44:12 [JavaFX Application Thread] INFO part2.labwork4.first.WeatherDaysFX - Search by word fragment completed successfully
+11:44:12 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Searched word fragment: dy. Found days: 
+11:44:12 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 09.12.22. Temperature: -5.2 degrees Celsius.
+Comment: Cloudy
+11:44:12 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 14.12.22. Temperature: 0.0 degrees Celsius.
+Comment: Foggy and cloudy
+11:44:12 [JavaFX Application Thread] DEBUG part2.labwork4.first.WeatherDaysFX - Date: 10.12.22. Temperature: -3.1 degrees Celsius.
+Comment: Windy
+11:55:22 [main] INFO part2.labwork4.first.WeatherDaysFX - Application closed

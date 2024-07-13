@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <ThresholdFilter level="warn"/>
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %level %logger{36} - %msg%n"/>
+        </Console>
+        <!--        <File name="FileAppender" fileName="storage/part2/labwork3/first/logs/weather-${date:yyyyMMdd}.log" immediateFlush="false" append="true">-->
+        <File name="Labwork3FileAppender" fileName="storage/part2/labwork3/first/logs/weather-${date:yyyyMMdd}.log"
+              immediateFlush="true" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %level %logger{36} - %msg%n"/>
+        </File>
+        <File name="Labwork4FileAppender" fileName="storage/part2/labwork4/first/logs/weather-${date:yyyyMMdd}.log"
+              immediateFlush="true" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %level %logger{36} - %msg%n"/>
+        </File>
+        <File name="Labwork5dayDAOFileAppender" fileName="storage/part2/labwork5/first/logs/dayDAO-${date:yyyyMMdd}.log"
+              immediateFlush="true" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %level %logger{36} - %msg%n"/>
+        </File>
+        <File name="Labwork5weatherDAOFileAppender"
+              fileName="storage/part2/labwork5/first/logs/weatherDAO-${date:yyyyMMdd}.log"
+              immediateFlush="true" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %level %logger{36} - %msg%n"/>
+        </File>
+        <File name="Labwork5DbConsoleApplicationFileAppender"
+              fileName="storage/part2/labwork5/first/logs/DbConsoleApplication-${date:yyyyMMdd}.log"
+              immediateFlush="true" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %level %logger{36} - %msg%n"/>
+        </File>
+        <File name="Labwork5DatabaseConfigFileAppender"
+              fileName="storage/part2/labwork5/first/logs/DatabaseConfig-${date:yyyyMMdd}.log"
+              immediateFlush="true" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %level %logger{36} - %msg%n"/>
+        </File>
+        <File name="Labwork5WeathersFileAppender"
+              fileName="storage/part2/labwork5/third/logs/Weathers-${date:yyyyMMdd}.log"
+              immediateFlush="true" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="part2.labwork3.first.FileUtilsProgram" level="debug" additivity="false">
+            <AppenderRef ref="Labwork3FileAppender"/>
+            <AppenderRef ref="ConsoleAppender"/>
+        </Logger>
+        <Logger name="part2.labwork4.first.WeatherDaysFX" level="debug" additivity="false">
+            <AppenderRef ref="Labwork4FileAppender"/>
+            <AppenderRef ref="ConsoleAppender"/>
+        </Logger>
+        <Logger name="part2.labwork5.first.dao.DayDAO" level="debug" additivity="false">
+            <AppenderRef ref="Labwork5dayDAOFileAppender"/>
+            <AppenderRef ref="ConsoleAppender"/>
+        </Logger>
+        <Logger name="part2.labwork5.first.dao.WeatherDAO" level="debug" additivity="false">
+            <AppenderRef ref="Labwork5weatherDAOFileAppender"/>
+            <AppenderRef ref="ConsoleAppender"/>
+        </Logger>
+        <Logger name="part2.labwork5.first.DbConsoleApplication" level="debug" additivity="false">
+            <AppenderRef ref="Labwork5DbConsoleApplicationFileAppender"/>
+            <AppenderRef ref="ConsoleAppender"/>
+        </Logger>
+        <Logger name="part2.labwork5.first.config.DatabaseConfig" level="debug" additivity="false">
+            <AppenderRef ref="Labwork5DatabaseConfigFileAppender"/>
+            <AppenderRef ref="ConsoleAppender"/>
+        </Logger>
+        <Logger name="part2.labwork5.third.WeathersFX" level="debug" additivity="false">
+            <AppenderRef ref="Labwork5WeathersFileAppender"/>
+            <AppenderRef ref="ConsoleAppender"/>
+        </Logger>
+        <Root level="warn">
+            <AppenderRef ref="ConsoleAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>
